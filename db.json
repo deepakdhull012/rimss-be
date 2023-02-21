@@ -1,0 +1,378 @@
+{
+  "users": [
+    {
+      "firstName": "Deepak",
+      "lastName": "Dhull",
+      "email": "deepakdhull012@gmail.com",
+      "password": "password",
+      "gender": "M",
+      "primaryAddressId": null,
+      "id": 2
+    },
+    {
+      "firstName": "D",
+      "lastName": "D",
+      "email": "d@d.com",
+      "password": "password",
+      "gender": "M",
+      "primaryAddressId": null,
+      "id": 3
+    },
+    {
+      "firstName": "d",
+      "lastName": "d",
+      "email": "f@f.com",
+      "password": "password",
+      "gender": "F",
+      "primaryAddressId": 2,
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Watch 1 FROM BE",
+      "mainImage": "assets/images/products/mens/5.webp",
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productCategory": [
+        "A",
+        "B"
+      ],
+      "productBrief": "Brief",
+      "productDescription": "Description",
+      "price": 200,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 180,
+      "saleId": 1,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 2,
+      "productName": "Watch 2",
+      "mainImage": "assets/images/products/mens/6.webp",
+      "productCategory": [
+        "A",
+        "B"
+      ],
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productBrief": "Brief",
+      "price": 300,
+      "productDiscountInPercentage": 20,
+      "priceAfterDiscount": 240,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 2,
+      "rating": 3.5,
+      "sizes": [
+        "SM",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 3,
+      "productName": "Watch 3",
+      "mainImage": "assets/images/products/mens/7.webp",
+      "productCategory": [
+        "A",
+        "C"
+      ],
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productBrief": "Brief",
+      "price": 1400,
+      "productDiscountInPercentage": 30,
+      "currency": "Rs.",
+      "priceAfterDiscount": 980,
+      "isOnOffer": true,
+      "brandId": 3,
+      "rating": 1.5,
+      "sizes": [
+        "SM",
+        "M"
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "Watch 3",
+      "mainImage": "assets/images/products/mens/9.webp",
+      "productCategory": [
+        "A",
+        "C"
+      ],
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productBrief": "Brief",
+      "price": 3000,
+      "productDiscountInPercentage": 40,
+      "priceAfterDiscount": 1800,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 4,
+      "rating": 0.9,
+      "sizes": [
+        "XXL"
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "Watch 3",
+      "mainImage": "assets/images/products/mens/10.webp",
+      "productCategory": [
+        "A",
+        "D"
+      ],
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productBrief": "Brief",
+      "price": 13000,
+      "productDiscountInPercentage": 50,
+      "priceAfterDiscount": 6500,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 5,
+      "rating": 4.9,
+      "sizes": [
+        "L"
+      ]
+    },
+    {
+      "id": 6,
+      "productName": "Watch 3",
+      "mainImage": "assets/images/products/mens/11.webp",
+      "productCategory": [
+        "G",
+        "H"
+      ],
+      "productImages": [
+        "assets/images/items/1.webp",
+        "assets/images/items/2.webp"
+      ],
+      "productBrief": "Brief",
+      "price": 30000,
+      "productDiscountInPercentage": 5,
+      "priceAfterDiscount": 28500,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 5,
+      "rating": 2.9,
+      "sizes": [
+        "SM",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "catId": "A",
+      "name": "Men's",
+      "child": [
+        {
+          "catId": "B",
+          "name": "Shirts"
+        },
+        {
+          "catId": "C",
+          "name": "T-Shirts"
+        },
+        {
+          "catId": "D",
+          "name": "Shoes"
+        },
+        {
+          "catId": "E",
+          "name": "Sweatshirts"
+        },
+        {
+          "catId": "F",
+          "name": "Watches"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "catId": "G",
+      "name": "Women's",
+      "child": [
+        {
+          "catId": "H",
+          "name": "Tops"
+        },
+        {
+          "catId": "I",
+          "name": "Jeans"
+        },
+        {
+          "catId": "J",
+          "name": "Bags"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "catId": "K",
+      "name": "Kid's"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "category": [
+        "Men's",
+        "Shirts"
+      ],
+      "discountInPercentage": 10
+    }
+  ],
+  "cart": [
+    {
+      "cartAddDate": "2023-02-16T06:34:12.942Z",
+      "cartProductImage": "assets/images/products/mens/5.webp",
+      "productBrief": "Brief",
+      "productId": 1,
+      "productName": "Watch 1 FROM BE",
+      "quantity": 1,
+      "unitCurrency": "Rs.",
+      "unitPrice": 200,
+      "userEmail": "f@f.com",
+      "id": 1
+    }
+  ],
+  "wish-list": [
+    {
+      "productId": 6,
+      "email": "f@f.com",
+      "id": 1
+    },
+    {
+      "productId": 3,
+      "email": "f@f.com",
+      "id": 2
+    },
+    {
+      "productId": 1,
+      "email": "f@f.com",
+      "id": 4
+    }
+  ],
+  "banner-sales": [
+    {
+      "id": 1,
+      "saleId": 1,
+      "saleImage": "assets/my-images/banner1.jpg",
+      "title": "Great sale on footwear"
+    },
+    {
+      "id": 2,
+      "saleId": 1,
+      "saleImage": "assets/my-images/banner2.webp",
+      "title": "Great sale on footwear"
+    },
+    {
+      "id": 3,
+      "saleId": 1,
+      "saleImage": "assets/my-images/banner3.jpg",
+      "title": "Great sale on footwear"
+    },
+    {
+      "id": 4,
+      "saleId": 1,
+      "saleImage": "assets/my-images/banner4.jpg",
+      "title": "Great sale on footwear"
+    },
+    {
+      "id": 5,
+      "saleId": 1,
+      "saleImage": "assets/my-images/banner5.jpg",
+      "title": "Great sale on footwear"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike"
+    },
+    {
+      "id": 2,
+      "name": "Rebook"
+    },
+    {
+      "id": 3,
+      "name": "PUMA"
+    },
+    {
+      "id": 4,
+      "name": "Adidas"
+    },
+    {
+      "id": 5,
+      "name": "Woodland"
+    }
+  ],
+  "addresses": [
+    {
+      "firstName": "Deepak",
+      "lastName": "Dhull",
+      "city": "Sonipat",
+      "userEmail": "f@f.com",
+      "line1": "Address line 1",
+      "line2": "Address line 2",
+      "mobile": "9991088146",
+      "pincode": "131024",
+      "state": "Harayana",
+      "id": 2
+    }
+  ]
+}
