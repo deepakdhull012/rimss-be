@@ -29,19 +29,269 @@
     }
   ],
   "products": [
+    
     {
-      "id": 1,
-      "productName": "Watch 1 FROM BE",
-      "mainImage": "assets/images/products/mens/5.webp",
+      "id": 2,
+      "productName": "Cool shirt",
+      "mainImage": "assets/images/products/mens/shirt2.jfif",
       "productImages": [
-        "assets/images/items/1.webp",
-        "assets/images/items/2.webp"
+        "assets/images/products/mens/shirt2.jfif",
+        "assets/images/products/mens/shirt3.jfif",
+        "assets/images/products/mens/shirt4.jpg"
       ],
       "productCategory": [
         "A",
         "B"
       ],
-      "productBrief": "Brief",
+      "productBrief": "Latest fashion shirt Woodland",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 5,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 3,
+      "productName": "Cool shirt",
+      "mainImage": "assets/images/products/mens/shirt3.jfif",
+      "productImages": [
+        "assets/images/products/mens/shirt2.jfif",
+        "assets/images/products/mens/shirt3.jfif",
+        "assets/images/products/mens/shirt4.jpg"
+      ],
+      "productCategory": [
+        "A",
+        "B"
+      ],
+      "productBrief": "Latest fashion shirt PUMA",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 3,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 4,
+      "productName": "Cool shirt",
+      "mainImage": "assets/images/products/mens/shirt4.jpg",
+      "productImages": [
+        "assets/images/products/mens/shirt2.jfif",
+        "assets/images/products/mens/shirt3.jfif",
+        "assets/images/products/mens/shirt4.jpg"
+      ],
+      "productCategory": [
+        "A",
+        "B"
+      ],
+      "productBrief": "Adidas new fashion shirt",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 4,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 5,
+      "productName": "Watch 1",
+      "mainImage": "assets/images/products/mens/watch1.webp",
+      "productCategory": [
+        "A",
+        "F"
+      ],
+      "productImages": [
+        "assets/images/products/mens/watch1.webp",
+        "assets/images/products/mens/watch2.webp"
+      ],
+      "productBrief": "Nike Smart watch",
+      "price": 300,
+      "productDiscountInPercentage": 20,
+      "priceAfterDiscount": 240,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 1,
+      "rating": 3.5,
+      "sizes": [
+        "SM",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 6,
+      "productName": "Watch 2",
+      "mainImage": "assets/images/products/mens/watch2.webp",
+      "productCategory": [
+        "A",
+        "F"
+      ],
+      "productImages": [
+        "assets/images/products/mens/watch1.webp",
+        "assets/images/products/mens/watch2.webp"
+      ],
+      "productBrief": "Adidas Smart watch",
+      "price": 700,
+      "productDiscountInPercentage": 20,
+      "priceAfterDiscount": 560,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 4,
+      "rating": 3.5,
+      "sizes": [
+        "SM",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": 7,
+      "productName": "Tshirt 1",
+      "mainImage": "assets/images/products/mens/t1.jfif",
+      "productCategory": [
+        "A",
+        "C"
+      ],
+      "productImages": [
+        "assets/images/products/mens/t1.jfif",
+        "assets/images/products/mens/t1.jfif"
+      ],
+      "productBrief": "PUMA Tshirt",
+      "price": 1400,
+      "productDiscountInPercentage": 30,
+      "currency": "Rs.",
+      "priceAfterDiscount": 980,
+      "isOnOffer": true,
+      "brandId": 3,
+      "rating": 1.5,
+      "sizes": [
+        "SM",
+        "M"
+      ]
+    },
+    {
+      "id": 8,
+      "productName": "Cool T-shirt",
+      "mainImage": "assets/images/products/mens/t2.jfif",
+      "productImages": [
+        "assets/images/products/mens/t1.jfif",
+        "assets/images/products/mens/t2.jfif"
+      ],
+      "productCategory": [
+        "A",
+        "C"
+      ],
+      "productBrief": "Cool summer T-shirt Nike",
       "productDescription": "Description",
       "price": 200,
       "currency": "Rs.",
@@ -50,7 +300,7 @@
       "rating": 4.5,
       "productDiscountInPercentage": 10,
       "priceAfterDiscount": 180,
-      "saleId": 1,
+      "saleId": 2,
       "brandId": 1,
       "availableColors": [
         "red",
@@ -85,71 +335,76 @@
       }
     },
     {
-      "id": 2,
-      "productName": "Watch 2",
-      "mainImage": "assets/images/products/mens/6.webp",
+      "id": 8,
+      "productName": "Cool T-shirt",
+      "mainImage": "assets/images/products/mens/t3.jfif",
+      "productImages": [
+        "assets/images/products/mens/t1.jfif",
+        "assets/images/products/mens/t2.jfif",
+        "assets/images/products/mens/t3.jfif"
+      ],
       "productCategory": [
         "A",
-        "B"
+        "C"
       ],
-      "productImages": [
-        "assets/images/items/1.webp",
-        "assets/images/items/2.webp"
-      ],
-      "productBrief": "Brief",
-      "price": 300,
-      "productDiscountInPercentage": 20,
-      "priceAfterDiscount": 240,
+      "productBrief": "Cool summer T-shirt Woodland",
+      "productDescription": "Description",
+      "price": 2000,
       "currency": "Rs.",
+      "priceInfo": "per box",
       "isOnOffer": true,
-      "brandId": 2,
-      "rating": 3.5,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 5,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
       "sizes": [
-        "SM",
-        "M",
         "L",
-        "XL",
-        "XXL"
-      ]
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
     },
     {
-      "id": 3,
-      "productName": "Watch 3",
-      "mainImage": "assets/images/products/mens/7.webp",
+      "id": 9,
+      "productName": "Tshirt adidas",
+      "mainImage": "assets/images/products/mens/t4.jfif",
       "productCategory": [
         "A",
         "C"
       ],
       "productImages": [
-        "assets/images/items/1.webp",
-        "assets/images/items/2.webp"
+        "assets/images/products/mens/t1.jfif",
+        "assets/images/products/mens/t2.jfif",
+        "assets/images/products/mens/t3.jfif",
+        "assets/images/products/mens/t4.jfif"
       ],
-      "productBrief": "Brief",
-      "price": 1400,
-      "productDiscountInPercentage": 30,
-      "currency": "Rs.",
-      "priceAfterDiscount": 980,
-      "isOnOffer": true,
-      "brandId": 3,
-      "rating": 1.5,
-      "sizes": [
-        "SM",
-        "M"
-      ]
-    },
-    {
-      "id": 4,
-      "productName": "Watch 3",
-      "mainImage": "assets/images/products/mens/9.webp",
-      "productCategory": [
-        "A",
-        "C"
-      ],
-      "productImages": [
-        "assets/images/items/1.webp",
-        "assets/images/items/2.webp"
-      ],
-      "productBrief": "Brief",
+      "productBrief": "Summer t-shirt",
       "price": 3000,
       "productDiscountInPercentage": 40,
       "priceAfterDiscount": 1800,
@@ -162,9 +417,145 @@
       ]
     },
     {
-      "id": 5,
-      "productName": "Watch 3",
-      "mainImage": "assets/images/products/mens/10.webp",
+      "id": 10,
+      "productName": "Sweat shirt 1",
+      "mainImage": "assets/images/products/mens/sweat1.webp",
+      "productImages": [
+        "assets/images/products/mens/sweat1.webp",
+        "assets/images/products/mens/sweat2.jpg"
+      ],
+      "productCategory": [
+        "A",
+        "E"
+      ],
+      "productBrief": "Sweat shirt Woodland",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 5,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 11,
+      "productName": "Sweat shirt 2",
+      "mainImage": "assets/images/products/mens/sweat2.jpg",
+      "productImages": [
+        "assets/images/products/mens/sweat1.webp",
+        "assets/images/products/mens/sweat2.jpg"
+      ],
+      "productCategory": [
+        "A",
+        "E"
+      ],
+      "productBrief": "Sweat shirt Nike",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+
+    {
+      "id": 12,
+      "productName": "Nike Cool Shoes",
+      "mainImage": "assets/images/products/mens/shoe1.jpeg",
+      "productCategory": [
+        "A",
+        "D"
+      ],
+      "productImages": [
+        "assets/images/products/mens/shoe1.jpeg",
+        "assets/images/products/mens/shoe2.jfif"
+      ],
+      "productBrief": "Nike comfortable shoes for mens",
+      "price": 4000,
+      "saleId": 1,
+      "productDiscountInPercentage": 50,
+      "priceAfterDiscount": 2000,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 1,
+      "rating": 4.9,
+      "sizes": [
+        "L"
+      ]
+    },
+     {
+      "id": 13,
+      "productName": "Adidas Shoes",
+      "mainImage": "assets/images/products/mens/shoe2.jfif",
       "productCategory": [
         "A",
         "D"
@@ -173,31 +564,57 @@
         "assets/images/items/1.webp",
         "assets/images/items/2.webp"
       ],
-      "productBrief": "Brief",
-      "price": 13000,
-      "productDiscountInPercentage": 50,
-      "priceAfterDiscount": 6500,
+      "productBrief": "Adidas casual shoes",
+      "price": 6500,
+      "priceAfterDiscount": 3250,
+      "saleId": 1,
+      "productDiscountInPercentage": 50, 
       "currency": "Rs.",
       "isOnOffer": true,
-      "brandId": 5,
+      "brandId": 4,
       "rating": 4.9,
       "sizes": [
         "L"
       ]
     },
     {
-      "id": 6,
-      "productName": "Watch 3",
-      "mainImage": "assets/images/products/mens/11.webp",
+      "id": 14,
+      "productName": "Shoe 3",
+      "mainImage": "assets/images/products/mens/shoe3.jpg",
       "productCategory": [
-        "G",
-        "H"
+        "A",
+        "D"
       ],
       "productImages": [
         "assets/images/items/1.webp",
         "assets/images/items/2.webp"
       ],
-      "productBrief": "Brief",
+      "productBrief": "PUMA latest shoes",
+      "price": 13000,
+      "saleId": 1,
+      "productDiscountInPercentage": 50,
+      "priceAfterDiscount": 6500,
+      "currency": "Rs.",
+      "isOnOffer": true,
+      "brandId": 3,
+      "rating": 4.9,
+      "sizes": [
+        "L"
+      ]
+    },
+    {
+      "id": 15,
+      "productName": "Women top 1",
+      "mainImage": "assets/images/products/womens/top1.jfif",
+      "productCategory": [
+        "G",
+        "H"
+      ],
+      "productImages": [
+        "assets/images/products/womens/top1.jfif",
+        "assets/images/products/womens/top2.jpg"
+      ],
+      "productBrief": "Women top woodland",
       "price": 30000,
       "productDiscountInPercentage": 5,
       "priceAfterDiscount": 28500,
@@ -211,6 +628,733 @@
         "L",
         "XL"
       ]
+    },
+    {
+      "id": 16,
+      "productName": "Women top 2",
+      "mainImage": "assets/images/products/womens/top2.jpg",
+      "productImages": [
+        "assets/images/products/womens/top1.jfif",
+        "assets/images/products/womens/top2.jpg"
+      ],
+      "productCategory": [
+        "G",
+        "H"
+      ],
+      "productBrief": "Top latest Nike",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 17,
+      "productName": "Women top 3",
+      "mainImage": "assets/images/products/womens/top3.webp",
+      "productImages": [
+        "assets/images/products/womens/top1.jfif",
+        "assets/images/products/womens/top2.jpg",
+        "assets/images/products/womens/top3.webp"
+      ],
+      "productCategory": [
+        "G",
+        "H"
+      ],
+      "productBrief": "Cool rebook top",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 4.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 2,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 17,
+      "productName": "Women top 4",
+      "mainImage": "assets/images/products/womens/top4.webp",
+      "productImages": [
+        "assets/images/products/womens/top1.jfif",
+        "assets/images/products/womens/top3.webp",
+        "assets/images/products/womens/top4.webp"
+      ],
+      "productCategory": [
+        "G",
+        "H"
+      ],
+      "productBrief": "Cool rebook top",
+      "productDescription": "Description",
+      "price": 20000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 18000,
+      "saleId": 2,
+      "brandId": 2,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 18,
+      "productName": "Women jeans 1",
+      "mainImage": "assets/images/products/womens/jeans1.webp",
+      "productImages": [
+        "assets/images/products/womens/jeans1.webp",
+        "assets/images/products/womens/jeans2.webpp",
+        "assets/images/products/womens/jeans3.jpg"
+      ],
+      "productCategory": [
+        "G",
+        "I"
+      ],
+      "productBrief": "Cool rebook jeans",
+      "productDescription": "Description",
+      "price": 5000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 4500,
+      "saleId": 2,
+      "brandId": 2,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 19,
+      "productName": "Women jeans 2",
+      "mainImage": "assets/images/products/womens/jeans2.webp",
+      "productImages": [
+        "assets/images/products/womens/jeans1.webp",
+        "assets/images/products/womens/jeans2.webpp",
+        "assets/images/products/womens/jeans3.jpg"
+      ],
+      "productCategory": [
+        "G",
+        "I"
+      ],
+      "productBrief": "Slim fit rebook jeans",
+      "productDescription": "Description",
+      "price": 5000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 4500,
+      "saleId": 2,
+      "brandId": 2,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 20,
+      "productName": "Women jeans 3",
+      "mainImage": "assets/images/products/womens/jeans3.jpg",
+      "productImages": [
+        "assets/images/products/womens/jeans1.webp",
+        "assets/images/products/womens/jeans2.webpp",
+        "assets/images/products/womens/jeans3.jpg"
+      ],
+      "productCategory": [
+        "G",
+        "I"
+      ],
+      "productBrief": "Cool Nike jeans",
+      "productDescription": "Description",
+      "price": 5000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 4500,
+      "saleId": 2,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 21,
+      "productName": "Women bag1 3",
+      "mainImage": "assets/images/products/womens/bag1.webp",
+      "productImages": [
+        "assets/images/products/womens/bag1.webp",
+        "assets/images/products/womens/bag2.webp",
+        "assets/images/products/womens/bag3.jpeg"
+      ],
+      "productCategory": [
+        "G",
+        "J"
+      ],
+      "productBrief": "Trendy woodlend bag",
+      "productDescription": "Description",
+      "price": 5000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 4500,
+      "saleId": 2,
+      "brandId": 5,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 22,
+      "productName": "Women bag 1",
+      "mainImage": "assets/images/products/womens/bag2.webp",
+      "productImages": [
+        "assets/images/products/womens/bag1.webp",
+        "assets/images/products/womens/bag2.webp",
+        "assets/images/products/womens/bag3.jpeg"
+      ],
+      "productCategory": [
+        "G",
+        "J"
+      ],
+      "productBrief": "Cool Nike Bag",
+      "productDescription": "Description",
+      "price": 5000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 4500,
+      "saleId": 2,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 23,
+      "productName": "Women bag 3",
+      "mainImage": "assets/images/products/womens/bag3.jpeg",
+      "productImages": [
+        "assets/images/products/womens/bag1.webp",
+        "assets/images/products/womens/bag2.webp",
+        "assets/images/products/womens/bag3.jpeg"
+      ],
+      "productCategory": [
+        "G",
+        "J"
+      ],
+      "productBrief": "Cool PUMA beg",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 3,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 24,
+      "productName": "Kids fashion 1",
+      "mainImage": "assets/images/products/kids/kids1.jpeg",
+      "productImages": [
+        "assets/images/products/kids/kids1.jpeg",
+        "assets/images/products/kids/kids2.webp",
+        "assets/images/products/kids/kids3.jfif",
+        "assets/images/products/kids/kids4.webp"
+      ],
+      "productCategory": [
+        "K"
+      ],
+      "productBrief": "Kids fashion PUMA",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 3.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 3,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 25,
+      "productName": "Kids fashion 2",
+      "mainImage": "assets/images/products/kids/kids2.webp",
+      "productImages": [
+        "assets/images/products/kids/kids1.jpeg",
+        "assets/images/products/kids/kids2.webp",
+        "assets/images/products/kids/kids3.jfif",
+        "assets/images/products/kids/kids4.webp"
+      ],
+      "productCategory": [
+        "K"
+      ],
+      "productBrief": "Kids top Nike",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 1,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 26,
+      "productName": "Kids fashion 3",
+      "mainImage": "assets/images/products/kids/kids3.jfif",
+      "productImages": [
+        "assets/images/products/kids/kids1.jpeg",
+        "assets/images/products/kids/kids2.webp",
+        "assets/images/products/kids/kids3.jfif",
+        "assets/images/products/kids/kids4.webp"
+      ],
+      "productCategory": [
+        "K"
+      ],
+      "productBrief": "Kids PUMA",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 3,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
+    },
+    {
+      "id": 27,
+      "productName": "Kids fashion 4",
+      "mainImage": "assets/images/products/kids/kids4.webp",
+      "productImages": [
+        "assets/images/products/kids/kids1.jpeg",
+        "assets/images/products/kids/kids2.webp",
+        "assets/images/products/kids/kids3.jfif",
+        "assets/images/products/kids/kids4.webp"
+      ],
+      "productCategory": [
+        "K"
+      ],
+      "productBrief": "Kids top woodland",
+      "productDescription": "Description",
+      "price": 2000,
+      "currency": "Rs.",
+      "priceInfo": "per box",
+      "isOnOffer": true,
+      "rating": 2.5,
+      "productDiscountInPercentage": 10,
+      "priceAfterDiscount": 1800,
+      "saleId": 2,
+      "brandId": 5,
+      "availableColors": [
+        "red",
+        "brown"
+      ],
+      "sizes": [
+        "L",
+        "XL"
+      ],
+      "max-quantity-available": 3,
+      "sku": [
+        {
+          "color": "red",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        },
+        {
+          "color": "brown",
+          "size": "L",
+          "units_in_stock": 3,
+          "units_in_order": 1,
+          "units_in_cart": 2,
+          "units_in_wishlist": 1
+        }
+      ],
+      "metadata": {
+        "type": "Regular",
+        "material": "Cotton"
+      }
     }
   ],
   "categories": [
@@ -270,26 +1414,13 @@
     {
       "id": 1,
       "category": [
-        "Men's",
-        "Shirts"
+        "A",
+        "D"
       ],
       "discountInPercentage": 10
     }
   ],
-  "cart": [
-    {
-      "cartAddDate": "2023-02-16T06:34:12.942Z",
-      "cartProductImage": "assets/images/products/mens/5.webp",
-      "productBrief": "Brief",
-      "productId": 1,
-      "productName": "Watch 1 FROM BE",
-      "quantity": 1,
-      "unitCurrency": "Rs.",
-      "unitPrice": 200,
-      "userEmail": "f@f.com",
-      "id": 1
-    }
-  ],
+  "cart": [],
   "wish-list": [
     {
       "productId": 6,
@@ -305,6 +1436,16 @@
       "productId": 1,
       "email": "f@f.com",
       "id": 4
+    },
+    {
+      "productId": 2,
+      "email": "d@d.com",
+      "id": 5
+    },
+    {
+      "productId": 3,
+      "email": "d@d.com",
+      "id": 6
     }
   ],
   "banner-sales": [
@@ -373,6 +1514,49 @@
       "pincode": "131024",
       "state": "Harayana",
       "id": 2
+    },
+    {
+      "firstName": "Deepak",
+      "lastName": "Dhull",
+      "city": "City",
+      "userEmail": "d@d.com",
+      "line1": "d@d",
+      "line2": "d@d",
+      "mobile": "9991088146",
+      "pincode": "131024",
+      "state": "State",
+      "id": 3
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Last",
+      "city": "city",
+      "userEmail": "d@d.com",
+      "line1": "line 1",
+      "line2": "line 2",
+      "mobile": "1234567890",
+      "pincode": "123123",
+      "state": "state",
+      "id": 4
     }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "type": "flat",
+      "amount": 100,
+      "name": "100OFF",
+      "minAmount": 500
+    },
+    {
+      "id": 1,
+      "type": "percentage",
+      "amount": 10,
+      "name": "10PER",
+      "minAmount": 0
+    }
+  ],
+  "orders": [
+    
   ]
 }
